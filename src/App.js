@@ -1,8 +1,10 @@
 import React from 'react';
+import Cardapio from './components/cardapio/cardapio';
+import './Global.css';
 
 
 function App() {
-  return <div />;
+  return (<Cardapio />);
 }
 
 export default App;
