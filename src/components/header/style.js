@@ -65,7 +65,7 @@ export const MenuBtn = styled.button`
 
 export const Navbar = styled.nav`
     position: absolute;
-    top: calc(2rem + 30px + 4px);
+    top: calc(100% + 4px);
     right: 0;
     z-index: 2;
     width: 270px;

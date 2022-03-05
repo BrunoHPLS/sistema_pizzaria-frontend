@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import MediaQuery from 'react-responsive';
 
-import {MobileHeaderFixed, MobileHeader, DesktopHeader, Logo, MenuBtn, Navbar, LinkList, MenuLink, CloseMenuArea, UserArea, UserImg, UserName, UserLink} from './headerStyle';
+import {MobileHeaderFixed, MobileHeader, DesktopHeader, Logo, MenuBtn, Navbar, LinkList, MenuLink, CloseMenuArea, UserArea, UserImg, UserName, UserLink} from './style';
 
 function Header() {
   const [menuVisible,setMenuVisible] = useState(false);

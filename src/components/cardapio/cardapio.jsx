@@ -1,11 +1,13 @@
 import React from 'react';
-import Header from '../header/header';
+import Header from '../header';
+import Main from '../main';
 
 
 function Cardapio() {
   return (
       <>
-      <Header></Header>
+      <Header/>
+      <Main/>
       </>
   );
 }
